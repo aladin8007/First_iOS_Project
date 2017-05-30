@@ -19,6 +19,8 @@
 		18F4768E1EDBC55E007168EB /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F4768C1EDBC55E007168EB /* FeedTableViewCell.xib */; };
 		18F476901EDBD93C007168EB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4768F1EDBD93C007168EB /* FeedViewController.swift */; };
 		18F476921EDBF515007168EB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F476911EDBF515007168EB /* News.swift */; };
+		73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */; };
+		73B756EF1EDD64A2003EDB0C /* SaveFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		18F4768C1EDBC55E007168EB /* FeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		18F4768F1EDBD93C007168EB /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		18F476911EDBF515007168EB /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
+		73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			children = (
 				18F476591EDBC261007168EB /* ViewController.swift */,
 				18F4768F1EDBD93C007168EB /* FeedViewController.swift */,
+				73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */,
+				73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -303,10 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F476921EDBF515007168EB /* News.swift in Sources */,
+				73B756EF1EDD64A2003EDB0C /* SaveFeedViewController.swift in Sources */,
 				18F4765A1EDBC261007168EB /* ViewController.swift in Sources */,
 				18F4768D1EDBC55E007168EB /* FeedTableViewCell.swift in Sources */,
 				18F476901EDBD93C007168EB /* FeedViewController.swift in Sources */,
 				18F476581EDBC261007168EB /* AppDelegate.swift in Sources */,
+				73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */,
 				18F476601EDBC261007168EB /* MyFirstProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +564,7 @@
 				18F476811EDBC261007168EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F476821EDBC261007168EB /* Build configuration list for PBXNativeTarget "MyFirstProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +573,7 @@
 				18F476841EDBC261007168EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F476851EDBC261007168EB /* Build configuration list for PBXNativeTarget "MyFirstProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +582,7 @@
 				18F476871EDBC261007168EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
