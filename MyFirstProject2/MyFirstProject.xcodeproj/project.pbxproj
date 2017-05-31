@@ -21,6 +21,7 @@
 		18F476921EDBF515007168EB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F476911EDBF515007168EB /* News.swift */; };
 		73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */; };
 		73B756EF1EDD64A2003EDB0C /* SaveFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */; };
+		73B756F11EDE770B003EDB0C /* Persist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756F01EDE770B003EDB0C /* Persist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		18F476911EDBF515007168EB /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
 		73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedViewController.swift; sourceTree = "<group>"; };
+		73B756F01EDE770B003EDB0C /* Persist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		18F476881EDBC2E3007168EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73B756F01EDE770B003EDB0C /* Persist.swift */,
 				18F476911EDBF515007168EB /* News.swift */,
 			);
 			name = Model;
@@ -313,6 +316,7 @@
 				18F4765A1EDBC261007168EB /* ViewController.swift in Sources */,
 				18F4768D1EDBC55E007168EB /* FeedTableViewCell.swift in Sources */,
 				18F476901EDBD93C007168EB /* FeedViewController.swift in Sources */,
+				73B756F11EDE770B003EDB0C /* Persist.swift in Sources */,
 				18F476581EDBC261007168EB /* AppDelegate.swift in Sources */,
 				73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */,
 				18F476601EDBC261007168EB /* MyFirstProject.xcdatamodeld in Sources */,
