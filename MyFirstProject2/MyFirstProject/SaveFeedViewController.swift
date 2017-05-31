@@ -27,7 +27,12 @@ class SaveFeedViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //ให้มันทำก่อนจะแสดงผล
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setupTableViewDummyData()
+    }
+    //ให้มันทำหลังจากแสดงแล้ว
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.setupTableViewDummyData()
@@ -49,8 +54,8 @@ class SaveFeedViewController: UIViewController {
     }
     
     //สร้าง view controller ที่มันมี identifier ชื่อ FeedDetailViewController
-    func toFeedDetailViewController(news:News){
-        if let viewController = self.storyboard?.instantiateViewController(withIdentifier:"FeedDetailViewController") as? FeedDetailViewController {
+    func toSaveFeedDetailViewController(news:News){
+        if let viewController = self.storyboard?.instantiateViewController(withIdentifier:"SaveFeedDetailViewController") as? SaveFeedDetailViewController {
             viewController.news = news
             self.navigationController?.pushViewController(viewController, animated: true)
         }
@@ -94,7 +99,7 @@ extension SaveFeedViewController: UITableViewDataSource,UITableViewDelegate{
         let rowNo = indexPath.row
         var news:News = newsArray[rowNo]
         print(indexPath.row)
-        self.toFeedDetailViewController(news: news)
+        self.toSaveFeedDetailViewController(news: news)
         
     }
 }

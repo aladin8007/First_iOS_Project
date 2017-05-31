@@ -22,6 +22,7 @@
 		73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */; };
 		73B756EF1EDD64A2003EDB0C /* SaveFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */; };
 		73B756F11EDE770B003EDB0C /* Persist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756F01EDE770B003EDB0C /* Persist.swift */; };
+		73B756F31EDE834F003EDB0C /* SaveFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B756F21EDE834F003EDB0C /* SaveFeedDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
 		73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedViewController.swift; sourceTree = "<group>"; };
 		73B756F01EDE770B003EDB0C /* Persist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persist.swift; sourceTree = "<group>"; };
+		73B756F21EDE834F003EDB0C /* SaveFeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				18F4768F1EDBD93C007168EB /* FeedViewController.swift */,
 				73B756EC1EDD3016003EDB0C /* FeedDetailViewController.swift */,
 				73B756EE1EDD64A2003EDB0C /* SaveFeedViewController.swift */,
+				73B756F21EDE834F003EDB0C /* SaveFeedDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				73B756F11EDE770B003EDB0C /* Persist.swift in Sources */,
 				18F476581EDBC261007168EB /* AppDelegate.swift in Sources */,
 				73B756ED1EDD3017003EDB0C /* FeedDetailViewController.swift in Sources */,
+				73B756F31EDE834F003EDB0C /* SaveFeedDetailViewController.swift in Sources */,
 				18F476601EDBC261007168EB /* MyFirstProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
